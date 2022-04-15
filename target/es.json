@@ -1,0 +1,780 @@
+{
+    "LABELS": {
+        "Total": "Total",
+        "Item-level taxes": "Impuestos a nivel de artículo",
+        "Order-level taxes": "Impuestos a nivel de orden",
+        "Tax breakup": "Ruptura fiscal",
+        "Share": "Cuota"
+    },
+    "GENERAL": {
+        "PICKUP": "RECOGER",
+        "DELIVERY": "ENTREGA",
+        "ADD": "AGREGAR",
+        "LOGIN": "Acceso",
+        "LOGOUT": "Cerrar sesión",
+        "HOME": "Casa",
+        "WORK": "Trabajo",
+        "OTHER": "Otro",
+        "SUBMIT": "Enviar",
+        "SIGN_UP": "Inscribirse",
+        "CUSTOMIZE": "Personalizar",
+        "FORGOT_PASSWORD": "Has olvidado tu contraseña ?",
+        "MANAGE_ADDRESS": "Administrar la dirección",
+        "CHANGE_PASSWORD": "Cambia la contraseña",
+        "UPDATE_ACCOUNT": "Actualización del perfil",
+        "RETRY": "Rever",
+        "SEARCH": "Búsqueda",
+        "DELIVER_TO": "ENTREGAR A:",
+        "DELIVER_TO_DESC": "Por favor, seleccione la ubicación de entrega",
+        "PICKUP_FROM": "RECÓGELO DE:",
+        "PICKUP_FROM_DESC": "Por favor ingrese una ubicación",
+        "NEARBY_STORES": "Ubicaciones cercanas",
+        "CURRENT_LOCATION": "Ubicación actual",
+        "USE_CURRENT_LOCATION": "Utilice la ubicación actual",
+        "SET_LOCATION_MANUALLY": "Establezca su ubicación %{mode} manualmente",
+        "USING_GPS": "Usando gps",
+        "OUT_OF_STOCK": "Agotado",
+        "DESCRIPTION": "Descripción",
+        "SELECT_DELIVERY_LOCATION": "Por favor, seleccione una ubicación de entrega",
+        "SELECT_DELIVERY_LOCATION_DESC": "Localidad de entrega seleccionada. Puede cambiar su localidad para ver la capacidad de entrega y el menú en su área.",
+        "CHANGE_LOCALITY": "Cambiar localidad",
+        "NO_ADDRESS": "No hay dirección",
+        "APPLY": "Aplicar",
+        "APPLIED": "Aplicado",
+        "VALIDATION_ERROR": "Error de validacion",
+        "MISSING_OPTIONS_ERROR": "Las opciones %{missingOptions} están agotadas para el artículo %{itemTitle}.",
+        "INADEQUATE_STOCK_ERROR": "Solo %{currentStock} de % {itemTitle} está disponible actualmente",
+        "OUT_OF_STOCK_ERROR": "El artículo %{itemTitle} está agotado",
+        "ITEM_UNAVAILABLE_ERROR": "El artículo %{itemTitle} no está disponible para orden",
+        "ITEM_UNAVAILABLE_AT_LOCATION_ERROR": "El artículo %{itemTitle} no está disponible para orden en la ubicación seleccionada",
+        "GENERIC_ERROR": "Algo salió mal, por favor, inténtalo de nuevo más tarde.",
+        "PROCESS_CART": "Procesar carrito",
+        "DISMISS": "Descartar",
+        "VIEW_DETAILS": "Ver detalles",
+        "REORDER": "Reordenar",
+        "ORDER_ID": "Solicitar #%{id}",
+        "CANCELLED": "Cancelado",
+        "EXPIRED": "Caducado",
+        "COMPLETED": "Terminado",
+        "PlACED": "Metido",
+        "ACKNOWLEDGED": "Admitido",
+        "FOOD_READY": "Comida lista",
+        "DISPATCHED": "Enviado",
+        "AWAITING_PAYMENT": "En espera de pago",
+        "ORDER_DELIVERED": "Orden entregado en",
+        "ORDER_PLACED": "Orden se puso en",
+        "PAYMENT_MODE": "Modo de pago:",
+        "SUB_TOTAL": "Sub total",
+        "TOTAL": "Total",
+        "BILL_TOTAL": "Total de facturas",
+        "DISCOUNT": "Descuento",
+        "TAXES": "Impuestos",
+        "PICKUP_STORE": "Tienda de pickup",
+        "SUB_CATEGORIES": "Subcategorías",
+        "VIEW_CART": "Ver carrito",
+        "PLUS_TAXES": "más impuestos",
+        "DELIVERING_TO": "Entregando a:",
+        "SELECT_ADDRESS": "Seleccione la dirección",
+        "SPECIAL_INSTRUCTIONS": "instrucciones especiales",
+        "HAVE_A_COUPON": "Tiene un cupón ?",
+        "CHANGE_COUPON": "Cambiar el cupón?",
+        "DELIVERY_CHARGE": "Gastos de envío",
+        "CASHBACK_CREDITS": "Créditos de Cashback",
+        "DELIVER_LATER": "Entregar más tarde",
+        "DELIVER_NOW": "Entregar ahora",
+        "CHANGE": "Cambiar",
+        "PAY_USING": "Pagar usando",
+        "PLACE_ORDER": "Realizar pedido",
+        "TOTAL_DISCOUNT": "Descuento total",
+        "TOTAL_TAX": "Total impuestos",
+        "PACKAGING_CHARGE": "Carga de envases",
+        "RECOMMENDED_ITEMS": "Artículos recomendados",
+        "SELECT_PAYMENT_METHOD": "Seleccione un método de pago",
+        "NO_PAYMENT_REQUIRED_TEXT": "¡No necesitas pagar por este pedido!",
+        "CHANGE_ADDRESS": "Cambiar dirección",
+        "PICKUP_NOW": "Recogida ahora",
+        "PICKUP_LATER": "Recogida más tarde",
+        "ORDER_FOR_LATER": "Orden para más tarde",
+        "CLOSED_DELIVERY": "Cerrado para la entrega",
+        "NO_TIME_SLOTS_AVAILABLE_SELECTED_DATE": "No hay ranuras de tiempo disponibles para la fecha seleccionada.\n Pruebe una fecha diferente.",
+        "NO_TIME_SLOTS_AVAILABLE_TODAY": "No hay ranuras de tiempo disponibles para hoy.",
+        "ONLINE_ORDERING_CLOSED_TODAY": "Pedidos en línea cerrados por hoy",
+        "STORE_CLOSED_TODAY": "La tienda más cercana está cerrada en este momento, pero puede seguir adelante y realizar pedidos durante un tiempo posterior.",
+        "STORE_CLOSED_PICKUP": "La tienda está cerrada para la recogida",
+        "EDIT": "Editar",
+        "DELETE": "Borrar",
+        "SAVE_PROCEED": "Guardar y proceder",
+        "LOCATION": "Ubicación",
+        "NO_SUB_LOCALITY": "Ninguna sublocalidad",
+        "PLEASE_WAIT": "Espere por favor",
+        "OR": "O",
+        "PROCEED_TO_PAY": "Proceda a pagar",
+        "PROCEED_TO_ADD_MONEY": "Proceder a agregar dinero",
+        "SAVED_ADDRESSES": "Direcciones guardadas",
+        "PAST_SEARCHES": "Búsquedas pasadas",
+        "OPEN_FOR_ORDERING": "Abierto para pedidos en línea",
+        "OK": "OK",
+        "CANCEL": "Cancelar",
+        "LATER": "Luego",
+        "YES": "sí",
+        "SETTINGS": "Ajustes",
+        "CONFIRM": "Confirmar",
+        "SEND_ME_OTP": "Mandame OTP",
+        "SUBMIT_OTP": "Enviar OTP",
+        "RESEND_OTP": "Reenviar OTP",
+        "VALIDATE": "Validar",
+        "SECONDS": "Segundos",
+        "GOOGLE_SIGN_IN": "Inicia sesión con Google",
+        "FACEBOOK_SIGN_IN": "Iniciar sesión usando Facebook",
+        "SORT": "Clasificar",
+        "FILTER": "Filtrar",
+        "RESET": "Reiniciar",
+        "RECHARGE": "Recargar",
+        "WALLET": "Billetera",
+        "PHONE": "Teléfono",
+        "EMAIL": "Correo electrónico",
+        "CREATE_ADDRESS": "Crear dirección",
+        "ADD_NEW_ADDRESS": "Agregar nueva dirección",
+        "ENTER_COUPON_CODE": "Por favor ingrese el código de cupón",
+        "DELIVERY_DATE": "Fecha de entrega",
+        "PICKUP_DATE": "Fecha de recogida",
+        "SELECT_DELIVERY_TIME_SLOT": "Seleccione una ranura de tiempo de entrega",
+        "SELECT_PICKUP_TIME_SLOT": "Seleccione una ranura de tiempo de recogida",
+        "DELIVER_NOW_DESC": "El pedido será entregado dentro del tiempo mencionado.",
+        "PICKUP_NOW_DESC": "El pedido estará listo para la recogida dentro del tiempo mencionado",
+        "DELIVER_LATER_DESC": "Seleccione el tiempo para la entrega de pedidos",
+        "PICKUP_LATER_DESC": "Seleccione el tiempo para la recogida de pedidos",
+        "SELECT_DELIVERY_TIME": "Seleccione un tiempo de entrega",
+        "SELECT_PICKUP_TIME": "Seleccione la hora de recogida",
+        "SELECT_COUNTRY": "Selecciona tu pais",
+        "SELECT_LANGUAGE": "Elige tu idioma",
+        "SHARE_LONG_DESC": "¡Comparte tu enlace de referencia con tus amigos y todos ustedes están parados para ganar algunas golosinas geniales!",
+        "SHARE_SHORT_DESC": "Comparte tu enlace único con tus amigos.",
+        "TERMS_DESC": "Estoy de acuerdo con la",
+        "TERMS_OF_SERVICE": "Términos de servicio",
+        "PRIVACY_POLICY": "Política de privacidad",
+        "PROMOTIONAL_MESSAGE_OPT_OUT": "Opt-Out a partir de mensajes promocionales / de campaña",
+        "AND": "y",
+        "ENTER_COUNTRY_NAME": "Ingrese el nombre del país",
+        "NEXT": "Próximo",
+        "FINISH": "Finalizar",
+        "BACK": "Atrás",
+        "SELECT_ANY_X_OPTIONS": "Seleccione %{count} opción (s)",
+        "SELECT_IN_BETWEEN_X_TO_Y_OPTIONS": "Seleccione en entre %{min}-%{max} opciones",
+        "SELECT_AT_LEAST_X_OPTIONS": "Seleccione al menos %{count} Opciones (s)",
+        "SELECT_AT_MOST_X_OPTIONS": "Seleccione al más %{count} Opciones (s)",
+        "SELECT_AS_MANY": "Seleccione tantos",
+        "CHOOSE_1_OPTION": "Elija cualquier opción 1",
+        "OPTION": "opción",
+        "OPTIONS": "opciones",
+        "CHOOSE_UP_TO": "Elegir hasta",
+        "CATEGORIES": "Categorías",
+        "DONE": "Hecho",
+        "SELECT_ITEM": "selecciona un artículo",
+        "NO_STORE_NEARBY": "No hay tienda cerca",
+        "STORE_CLOSED_FOR_THE_DAY": "La tienda está cerrada por el día.",
+        "STORE_CLOSED_TEMPORARILY": "La tienda está cerrada por ordenar temporalmente",
+        "WALLET_TRANSACTION_RELOAD_DESC": "Dinero añadido a la billetera.",
+        "WALLET_TRANSACTION_PAY_DESC": "Pagado en la tienda - %{storeName}",
+        "PICKUP_OR_DELIVER": "Pickup o entregar:",
+        "LOADING": "Cargando...",
+        "TRANSACTION_ID": "ID de transacción:%{id}",
+        "FREE": "GRATIS",
+        "LOCATION_SERVICE_DISABLED": "Servicio de ubicación deshabilitado",
+        "WAITING_FOR_ADDRESS": "Esperando la dirección ...",
+        "SUBMITTING_FEEDBACK": "Enviando sus comentarios",
+        "RATE_YOUR_EXPERIENCE": "Califica tu experiencia",
+        "EMAIL_SUBJECT": "Necesito ayuda para pedir la aplicación.",
+        "SHARE_DEFAULT_SHORT_DESC": "Descarga y prueba la aplicación %{bizName}",
+        "ERROR": "¡Error!",
+        "RELOAD_WALLET_ERROR_MESSAGE": "No se puede volver a cargar la billetera",
+        "EMAIL_PLACEHOLDER": "example@example.com",
+        "ORDER_SUCCESS": "Éxito de pedido",
+        "SEARCH_FOR_ITEMS": "Buscar artículos",
+        "ORDER_WILL_ARRIVE_BY": "Su pedido llegará por",
+        "ORDER_WILL_BE_READY_ON": "Su pedido estará listo por",
+        "FEEDBACK_QUESTION": "¿Como podemos mejorar?",
+        "NO_STORE_SELECTED": "Ninguna tienda seleccionada",
+        "PAY_TO_PLACE_ORDER": "Por favor haga el pago para realizar el pedido.",
+        "CHECKOUT_ALERT": "Alerta de pago",
+        "UNABLE_TO_PLACE_YOUR_ORDER": "Incapaz de realizar su pedido",
+        "PRE_ORDER_WILL_ARRIVE_ON": "Su pedido llegará a %{dateMonth} entre %{timeSlot}",
+        "PRE_ORDER_WILL_ARRIVE_AT": "Su pedido llegará a %{dateMonth} en %{time}",
+        "ORDER_WILL_ARRIVE_AT": "Su pedido llegará al %{time}",
+        "ORDER_WILL_ARRIVE_BETWEEN": "Su pedido llegará entre %{timeSlot}",
+        "PICKUP_PRE_ORDER_WILL_BE_READY_ON": "Su pedido estará listo en %{dateMonth} entre %{timeSlot}",
+        "ORDER_WILL_BE_READY_BETWEEN": "Su pedido estará listo entre %{timeSlot}",
+        "PICKUP_PRE_ORDER_AT": "Recoger su pedido en %{dateMonth} en %{time}",
+        "PICKUP_ORDER_AT": "Recoger su pedido en %{time}",
+        "SELECT_TIME_SLOT": "Seleccione una ranura de tiempo",
+        "STORE_CLOSED_OPENS_BETWEEN": "Esta tienda está cerrada en este momento. Se abre entre %{openingTime}-%{closingTime} para ordenar",
+        "REPEAT_LAST_ALERT_TITLE": "¿Repite la última personalización utilizada?",
+        "I_WILL_CHOOSE": "Voy a elegir",
+        "REPEAT_LAST": "Repetir el último",
+        "ORDER_WILL_BE_READY_BY": "El pedido estará listo por",
+        "GEOLOCATION": "Permiso de ubicación",
+        "UNDERSTOOD": "Entendido",
+        "CONTACTLESS_DELIVERY": "Entrega sin contacto",
+        "CONTACTLESS_DELIVERY_DESC": "Nuestro agente de entrega le llamará una vez en su puerta para confirmar y dejar el pedido afuera según su instrucción.",
+        "OPT_FOR_CONTACTLESS": "Optar por la entrega sin contacto",
+        "MORE_INFO": "MÁS INFORMACIÓN",
+        "LIKES": "Gustos",
+        "APPLY_COUPON": "Aplicar cupón",
+        "OF": "de",
+        "OTHER_NEARBY_STORES": "Otras tiendas cercanas",
+        "AWAY": "Fuera",
+        "APPLY_CHANGES": "Aplicar los cambios",
+        "ITEM_STOCK_AVAILABILITY": "Artículo Stock disponibilidad",
+        "NOTE": "Nota:",
+        "ACTIVE": "Activo",
+        "HISTORY": "Historia",
+        "BILL_DETAILS": "Detalles de la factura"
+    },
+    "ITEM": {
+        "counting": {
+            "one": "%{count} Artículo",
+            "other": "%{count} Artículos"
+        }
+    },
+    "CODE_PUSH": {
+        "CHECKING_FOR_UPDATE": "Menú de carga",
+        "DOWNLOADING_PACKAGE": "Descargando actualizaciones de aplicaciones",
+        "AWAITING_USER_ACTION": "A la espera de la acción del usuario",
+        "INSTALLING_UPDATE": "Instalando actualización",
+        "UP_TO_DATE": "Aplicación actualizada hasta la fecha",
+        "UPDATE_IGNORED": "Actualización cancelada por usuario",
+        "UPDATE_INSTALLED": "Actualización instalada y se aplicará en reinicio.",
+        "UNKNOWN_ERROR": "Un error desconocido ocurrió",
+        "DOWNLOAD_PROGRESS": "%{receivedBytes} de %{totalBytes}",
+        "THIS_WILL_TAKE_SOME_TIME": "Esto tomará algún tiempo..."
+    },
+    "REFERAL": {
+        "TITLE": "Prueba la aplicación %{bizName}",
+        "MESSAGE": "La aplicación oficial para ordenar desde %{bizName}"
+    },
+    "PAYMENT_MODE": {
+        "CASH": "Efectivo en la entrega",
+        "WALLET": "Billetera",
+        "PAYMENT_GATEWAY": "Paga en linea",
+        "PAYTM": "Paytm",
+        "PAYTABS": "Paytabs"
+    },
+    "FORM_LABELS": {
+        "NAME": "Nombre completo",
+        "PHONE": "Teléfono",
+        "EMAIL": "Correo electrónico",
+        "GENDER": "Género",
+        "BIRTHDAY": "Cumpleaños",
+        "ANNIVERSARY": "Aniversario",
+        "ADDRESS": "Habla a",
+        "LANDMARK": "Punto de referencia",
+        "PIN_CODE": "Código PIN",
+        "PASSWORD": "Clave",
+        "CURRENT_PASSWORD": "Contraseña actual",
+        "NEW_PASSWORD": "Nueva contraseña",
+        "CONFIRM_PASSWORD": "Confirmar contraseña",
+        "CUSTOM_TAG": "Etiqueta personalizada",
+        "MALE": "Masculino",
+        "FEMALE": "Mujer",
+        "VERIFICATION_CODE": "Código de verificación",
+        "FEEDBACK_OPTION": "¿Qué salió mal?"
+    },
+    "TAB_BAR": {
+        "HOME": "Casa",
+        "SEARCH": "Búsqueda",
+        "ORDERS": "Pedidos",
+        "ACCOUNT": "Cuenta"
+    },
+    "PLACEHOLDERS": {
+        "GEO_LOCATION_PLACEHOLDER": {
+            "TITLE": "Permiso de ubicación denegado",
+            "MESSAGE": "Al permitir los permisos de ubicación, puede acceder a la ubicación más cercana a su alrededor.",
+            "BUTTON_LABEL": "Habilitar"
+        },
+        "LOGIN_PLACEHOLDER": {
+            "TITLE": "Iniciar sesión para continuar",
+            "MESSAGE": "Necesita iniciar sesión para acceder a esta sección de la aplicación",
+            "BUTTON_LABEL": "Acceso"
+        },
+        "LABEL_PLACEHOLDER_EMPTY_DELIVERY_ADDRESS_SEARCH": {
+            "TITLE": "Buscar la dirección",
+            "MESSAGE": "Ingrese su dirección en la barra de búsqueda para obtener su dirección de entrega"
+        },
+        "EMPTY_STORES_SEARCH_PLACEHOLDER": {
+            "TITLE": "No se encontraron tiendas",
+            "MESSAGE": "Por favor, busque otra tienda"
+        },
+        "EMPTY_ORDERS_PLACEHOLDER": {
+            "TITLE": "No tienes órdenes",
+            "MESSAGE": "Los pedidos realizados por usted aparecerán aquí."
+        },
+        "EMPTY_ITEMS_PLACEHOLDER": {
+            "TITLE": "No tengo artículos",
+            "MESSAGE": "No se puede encontrar ningún producto en esta categoría."
+        },
+        "EMPTY_ITEMS_SEARCH_PLACEHOLDER": {
+            "TITLE": "No se encontraron artículos",
+            "MESSAGE": "Por favor, busque otro artículo"
+        },
+        "EMPTY_NOTIFICATIONS_PLACEHOLDER": {
+            "TITLE": "Notificaciones",
+            "MESSAGE": "Todas las notificaciones enviadas a usted se presentarán aquí."
+        },
+        "PLACES_SEARCH_PLACEHOLDER": {
+            "TITLE": "Por favor busque una dirección",
+            "MESSAGE": "Por favor busque un lugar cercano"
+        },
+        "EMPTY_DELIVERABLE_ADDRESS_PLACEHOLDER": {
+            "TITLE": "No se encontró ninguna dirección",
+            "MESSAGE": "Por favor, cree una dirección dentro del área entregable"
+        },
+        "EMPTY_ADDRESS_PLACEHOLDER": {
+            "TITLE": "Direcciones guardadas",
+            "MESSAGE": "Guarde sus direcciones para una experiencia de pago super rápida",
+            "BUTTON_LABEL": "Añadir dirección"
+        },
+        "EMPTY_ADDRESS_SEARCH_PLACEHOLDER": {
+            "TITLE": "No se encontró ninguna dirección",
+            "MESSAGE": "Buscar una dirección diferente"
+        },
+        "EMPTY_FAVOURITES_PLACEHOLDER": {
+            "TITLE": "Artículos favoritos",
+            "MESSAGE": "Todos los artículos que \"le guste\" aparecerán aquí para una fácil selección."
+        },
+        "EMPTY_COUPONS_PLACEHOLDER": {
+            "TITLE": "no hay ofertas disponibles",
+            "MESSAGE": "Suspiro, no hay ofertas para ti ahora mismo.\nPero guarde un ojo para algo nuevo que aparezca aquí."
+        },
+        "ORDER_LOADING_FAILED": {
+            "TITLE": "ID de pedido: %{id}",
+            "DESC": "No se pueden cargar detalles de pedido"
+        }
+    },
+    "WALLET_SCREEN": {
+        "TITLE": "Billetera",
+        "TRANSACTION_HISTORY": "Historial de transacciones",
+        "BALANCE": "Equilibrio"
+    },
+    "WALLET_RELOAD_SCREEN": {
+        "TITLE": "Saldo",
+        "AVAILABLE_BALANCE": "Saldo disponible:",
+        "ENTER_AMOUNT": "Ingrese la cantidad",
+        "CHOOSE_POPULAR_DENOMINATION": "Elige entre denominaciones populares.",
+        "NOTE_MESSAGE_ONE": "1. Este saldo no puede ser transferido a su cuenta bancaria.",
+        "NOTE_MESSAGE_TWO": "2. Solo puedes usar este saldo en los pedidos del restaurante."
+    },
+    "WALLET_RELOAD_SCREEN_MODAL": {
+        "TITLE": "Cartera de recarga"
+    },
+    "INVITE_FRIENDS_SCREEN": {
+        "TITLE": "Consulte y gana"
+    },
+    "REWARDS_SCREEN": {
+        "TITLE": "Recompensas"
+    },
+    "ADD_ADDRESS_SCREEN": {
+        "TITLE": "Añadir dirección"
+    },
+    "PHONE_NUMBER_SCREEN": {
+        "TITLE": "Verificar el número de teléfono",
+        "DESC": "Por favor ingrese su número de telefono"
+    },
+    "FORGOT_PASSWORD_SCREEN": {
+        "TITLE": "¿Has olvidado tu contraseña?",
+        "DESC": "Restablecer su contraseña"
+    },
+    "CHANGE_PASSWORD_SCREEN": {
+        "TITLE": "Cambia la contraseña"
+    },
+    "ADDRESSES_SCREEN": {
+        "TITLE": "Administrar direcciones"
+    },
+    "FAVOURITE_SCREEN": {
+        "TITLE": "Favoritos"
+    },
+    "COUPONS_SCREEN": {
+        "TITLE": "Ofertas"
+    },
+    "NOTIFICATIONS_SCREEN": {
+        "TITLE": "Notificaciones"
+    },
+    "STORE_LOCATION_SCREEN": {
+        "TITLE": "Ubicaciones de la tienda"
+    },
+    "LOGIN_SCREEN": {
+        "TITLE": "Acceso",
+        "DESC": "Por favor, inicie sesión / Registrarse para continuar"
+    },
+    "HOME_SCREEN": {
+        "TITLE": "Casa",
+        "FEATURED_ITEMS": "Elementos destacados",
+        "CATEGORIES": "Categorías"
+    },
+    "SEARCH_SCREEN": {
+        "TITLE": "Búsqueda",
+        "CATEGORIES": "Examinar las categorías",
+        "SEARCH_BAR_LABEL": "Búsqueda"
+    },
+    "ORDER_HISTORY_SCREEN": {
+        "TITLE": "Historial de pedidos"
+    },
+    "EDIT_ACCOUNT_SCREEN": {
+        "TITLE": "Editar perfil",
+        "DESC": "Actualiza tu perfil"
+    },
+    "ORDER_SUCCESS_SCREEN": {
+        "TITLE": "Orden colocado",
+        "DESC": "Su orden ha sido puesta"
+    },
+    "ADDRESS_SELECTOR_SCREEN": {
+        "TITLE": "Direcciones",
+        "DESC": "Por favor, seleccione una dirección para continuar"
+    },
+    "STORE_SELECTOR_SCREEN": {
+        "TITLE": "¡Tiendas cerca de ti!",
+        "DESC": "Elige tu tienda preferida"
+    },
+    "COUPON_SELECTOR_SCREEN": {
+        "TITLE": "Cupones disponibles",
+        "DESC": "Por favor seleccione un cupón para continuar"
+    },
+    "FEEDBACK_SCREEN": {
+        "TITLE": "Realimentación",
+        "DESC": "Califica tu experiencia"
+    },
+    "FILTER_SELECTOR_SCREEN": {
+        "TITLE": "Filtrar",
+        "DESC": "Seleccione las opciones para filtrar sus artículos por"
+    },
+    "SORT_SELECTOR_SCREEN": {
+        "TITLE": "Clasificar",
+        "DESC": "Seleccione las opciones para ordenar sus artículos por"
+    },
+    "FILTER_SORT_SELECTOR_SCREEN": {
+        "TITLE": "Filtrar y ordenar",
+        "DESC": "Seleccione las opciones para filtrar y ordenar sus artículos por"
+    },
+    "PAYMENT_SELECTOR_SCREEN": {
+        "TITLE": "Método de pago",
+        "DESC": "Por favor seleccione un método de pago"
+    },
+    "PLACES_SELECTOR_SCREEN": {
+        "TITLE": "Búsqueda",
+        "DESC": "Buscar una ubicación cercana"
+    },
+    "WALLET_RELOAD_SELECTOR_SCREEN": {
+        "TITLE": "Recarga de la cartera",
+        "DESC": "Por favor seleccione una denominación"
+    },
+    "MISSING_ITEMS_SELECTOR_SCREEN": {
+        "TITLE": "Añadir elementos de carro faltantes",
+        "DESC": "El cupón '%{coupon}' es aplicable en artículos que faltan en su carrito. Seleccione el artículo (s) para agregar a su carrito:"
+    },
+    "CONTACT_US_SCREEN": {
+        "TITLE": "Contacto para ayuda",
+        "DESC": "Por favor, elija el canal a través de lo cual\n te gustaría llegar a nosotros",
+        "CHAT_WITH_US": "habla con nosotros"
+    },
+    "ACCOUNT_SCREEN": {
+        "TITLE": "Mi cuenta"
+    },
+    "SIGNUP_SCREEN": {
+        "TITLE": "Inscribirse",
+        "DESC": "Por favor, regístrate para continuar"
+    },
+    "MODULES": {
+        "MY_ACCOUNT": {
+            "TITLE": "Mi cuenta",
+            "DESC": "Editar perfil, cambio de contraseña"
+        },
+        "FAVOURITES": {
+            "TITLE": "Favoritos"
+        },
+        "WALLET": {
+            "TITLE": "Billetera"
+        },
+        "STORE_LOCATIONS": {
+            "TITLE": "Ubicaciones de la tienda"
+        },
+        "NOTIFICATIONS": {
+            "TITLE": "Notificaciones"
+        },
+        "COUPONS": {
+            "TITLE": "Ofertas"
+        },
+        "INVITE_FRIENDS": {
+            "TITLE": "Invitar a amigos"
+        },
+        "FAQ": {
+            "TITLE": "Preguntas más frecuentes",
+            "DESC": "Preguntas frecuentes"
+        },
+        "ABOUT_US": {
+            "TITLE": "Sobre nosotros"
+        },
+        "CONTACT_US": {
+            "TITLE": "Contáctenos"
+        },
+        "SWITCH_COUNTRY": {
+            "TITLE": "Cambiar de país"
+        },
+        "CHANGE_LANGUAGE": {
+            "TITLE": "Cambiar idioma"
+        },
+        "SCAN_QR": {
+            "TITLE": "Escanear QR para obtener una vista previa",
+            "DESC": "Por favor, escanee el QR en Quint para obtener una vista previa"
+        }
+    },
+    "NOTIFICATIONS": {
+        "OUT_OF_STOCK": {
+            "TITLE": "Agotado",
+            "DESC": "Solo %{quantity} de %{item} está disponible"
+        },
+        "APPLY_COUPON_SUCCESS": {
+            "TITLE": "Cupón aplicado",
+            "DESC": "El código de cupón se aplicará en el carrito."
+        },
+        "APPLY_COUPON_FAILED": {
+            "TITLE": "¡Ha fallado!",
+            "DESC": "No se pudo aplicar el cupón."
+        },
+        "PASSWORD_RESET_CONFIRM_PASSWORD_FAILED": {
+            "TITLE": "Falló el restablecimiento de la contraseña",
+            "DESC": "Las contraseñas no coinciden"
+        },
+        "PASSWORD_RESET_FAILED": {
+            "TITLE": "Falló el restablecimiento de la contraseña",
+            "DESC": "Las contraseñas no coinciden"
+        },
+        "PASSWORD_RESET_SUCCESS": {
+            "TITLE": "Tu contraseña ha sido restablecida",
+            "DESC": "Las contraseñas no coinciden"
+        },
+        "PASSWORD_RESET_OTP_SENT": {
+            "TITLE": "OTP enviado",
+            "DESC": "Un OTP para restablecer la contraseña se ha enviado a su número de teléfono"
+        },
+        "SUBMIT_FEEDBACK_SUCCESS": {
+            "TITLE": "Éxito",
+            "DESC": "Su opinión ha sido enviada"
+        },
+        "SUBMIT_FEEDBACK_INVALID_OPTION": {
+            "TITLE": "Realimentación",
+            "DESC": "Seleccione una opción para proporcionar comentarios"
+        },
+        "SUBMIT_FEEDBACK_FAILED": {
+            "TITLE": "Error",
+            "DESC": "No se puede enviar sus comentarios"
+        },
+        "ADD_ADDRESS_INVALID_SUB_LOCALITY": {
+            "TITLE": "¡Error de validacion!",
+            "DESC": "Sublocalidad inválida"
+        },
+        "ADD_ADDRESS_INVALID_ADDRESS": {
+            "TITLE": "¡Error de validacion!",
+            "DESC": "Compruebe la dirección ingresada"
+        },
+        "ADD_ADDRESS_INVALID_PIN_CODE": {
+            "TITLE": "¡Error de validacion!",
+            "DESC": "Compruebe el Pincode ingresado"
+        },
+        "ADD_ADDRESS_INVALID_TAG": {
+            "TITLE": "¡Error de validacion!",
+            "DESC": "Compruebe la etiqueta de dirección ingresada"
+        },
+        "CHANGE_PASSWORD_SUCCESS": {
+            "TITLE": "Éxito",
+            "DESC": "Su contraseña de cuenta ha sido cambiada"
+        },
+        "EDIT_ACCOUNT_SUCCESS": {
+            "TITLE": "Éxito",
+            "DESC": "Los detalles de su cuenta han sido actualizados"
+        },
+        "WALLET_RELOAD_INVALID_MIN_AMOUNT": {
+            "TITLE": "¡Error!",
+            "DESC": "La cantidad de recarga debe ser más de"
+        },
+        "WALLET_RELOAD_INVALID_MAX_AMOUNT": {
+            "TITLE": "¡Error!",
+            "DESC": "La cantidad de recarga debe ser menor que"
+        },
+        "WALLET_RELOAD_INVALID_AMOUNT": {
+            "TITLE": "¡Error!",
+            "DESC": "¡Ingrese una cantidad válida para volver a cargar!"
+        },
+        "CART_STORE_CLOSED": {
+            "TITLE": "Tienda cerrada",
+            "DESC": "La tienda está cerrada en este momento y no aceptando pedidos."
+        },
+        "CART_STORE_CLOSED_TIME": {
+            "TITLE": "Tienda de ordenado cerrado",
+            "DESC": "La tienda está cerrada por ordenar hoy"
+        },
+        "CART_INVALID_COUPON": {
+            "TITLE": "Cupón inválido",
+            "DESC": "Cupón inválido"
+        },
+        "CART_APPLY_COUPON_FAILED": {
+            "TITLE": "¡Alerta de pago!",
+            "DESC": "No se pudo aplicar el cupón, verifique su conexión a Internet."
+        },
+        "LOGIN_FAILED": {
+            "TITLE": "¡Error!",
+            "DESC": "Compruebe las credenciales ingresadas ..."
+        },
+        "SIGNUP_FAILED": {
+            "TITLE": "Error de validacion",
+            "DESC": "#VALUE!",
+            "NAME_REQUIRED": "Se requiere nombre completo"
+        },
+        "LOGIN_EMAIL_CHECK_FAILED": {
+            "TITLE": "Error",
+            "DESC": "Incapaz de iniciar sesión"
+        },
+        "GET_NEAREST_STORE_FAILED": {
+            "TITLE": "¡Error!",
+            "DESC": "No se puede obtener la tienda más cercana, verifique si el servicio de ubicación está habilitado."
+        },
+        "INVALID_PHONE": {
+            "TITLE": "¡Error de validacion!",
+            "DESC": "Compruebe el número de teléfono ingresado"
+        },
+        "OTP_SENT": {
+            "TITLE": "OTP enviado!",
+            "DESC": "Revise sus mensajes para que la OTP complete el inicio de sesión"
+        },
+        "ADDRESS_NOT_DELIVERABLE": {
+            "TITLE": "La dirección no es entregable",
+            "DESC": ""
+        },
+        "STORE_CLOSED_PICKUP": {
+            "TITLE": "Tienda cerrada",
+            "DESC": "La tienda está cerrada para la recogida."
+        },
+        "STORE_CLOSED_ORDERING": {
+            "TITLE": "Tienda cerrada",
+            "DESC": "La tienda está cerrada por ordenar ahora."
+        },
+        "SESSION_EXPIRED": {
+            "TITLE": "Su sesión parece haber expirado",
+            "DESC": "Por favor, inicie sesión de nuevo"
+        },
+        "CART_INVALID_MIN_AMOUNT": {
+            "TITLE": "¡Error!",
+            "DESC": "Cantidad del carrito MENOS QUE EL VALOR DE PEDIDO MÍNIMO %{minAmount}"
+        },
+        "TERMS_ACCEPTANCE_REQUIRED": {
+            "TITLE": "¡Error!",
+            "DESC": "Indique su aceptación de nuestros Términos y Política de privacidad para continuar"
+        }
+    },
+    "ALERT_DIALOG": {
+        "FEEDBACK_CANCEL": {
+            "TITLE": "Realimentación",
+            "DESC": "¿Estás seguro de que no te gustaría dar un comentario?"
+        },
+        "LOGOUT": {
+            "TITLE": "Cerrar sesión",
+            "DESC": "Por favor confirme para cerrar sesión"
+        },
+        "REORDER_ITEM_NOT_AVAILABLE": {
+            "TITLE": "Reordenar",
+            "DESC": "Lo sentimos, pero uno o más artículos para este pedido no están disponibles",
+            "MESSAGE": "¿Aún le gustaría continuar con su pedido?"
+        },
+        "DELIVERY_LOCATION_ALERT": {
+            "TITLE": "Alerta de ubicación",
+            "DESC": "No puede agregar artículos sin establecer una ubicación de entrega. ¿Te gustaría establecer uno ahora?"
+        },
+        "PICKUP_LOCATION_ALERT": {
+            "TITLE": "Alerta de ubicación",
+            "DESC": "No puede agregar artículos sin configurar una ubicación de las ubicaciones de recogida enumeradas. ¿Te gustaría establecer uno ahora?"
+        },
+        "LOCATION_SERVICE_ALERT": {
+            "TITLE": "Servicio de ubicación deshabilitado",
+            "DESC": "Habilitar el servicio de ubicación para permitir que la aplicación detecte su ubicación de entrega"
+        },
+        "STORE_REQUIRED_REORDERING": {
+            "TITLE": "Alerta de ubicación",
+            "DESC": "Se requiere la tienda para reordenar"
+        },
+        "ADDRESS_REQUIRED": {
+            "TITLE": "Por favor seleccione una dirección",
+            "DESC": "Por favor, seleccione una dirección entregable para continuar"
+        },
+        "PAYMENT_METHOD_REQUIRED": {
+            "TITLE": "Por favor seleccione un método de pago",
+            "DESC": "¿Desea elegir un método de pago ahora?"
+        },
+        "SELECT_WALLET_RELOAD_METHOD": {
+            "TITLE": "Método de pago",
+            "DESC": "Por favor seleccione un método de pago"
+        },
+        "LOGIN_REQUIRED": {
+            "TITLE": "Acceso",
+            "DESC": "Por favor inicie sesión para continuar"
+        },
+        "MINIMUM_ORDER_TOTAL": {
+            "TITLE": "Pedido mínimo",
+            "DESC": "Cantidad del carrito Menos que el valor de pedido mínimo %{minAmount}, agregue más artículos para realizar el pedido."
+        },
+        "VALIDATE_PHONE_NUMBER": {
+            "TITLE": "Verificar el número de teléfono",
+            "DESC": "Por favor, valida su teléfono no para continuar"
+        },
+        "ADD_FAVOURITE": {
+            "TITLE": "Añadir favorito",
+            "DESC": "Por favor, confirme para agregar a sus favoritos."
+        },
+        "REMOVE_FAVOURITE": {
+            "TITLE": "Eliminar favorito",
+            "DESC": "Por favor, confirme para eliminar de sus favoritos"
+        },
+        "WALLET_BALANCE_REQUIRED": {
+            "TITLE": "Saldo insuficiente",
+            "DESC": "Su billetera no tiene suficiente equilibrio para realizar el pedido, vuelva a cargar su billetera para continuar"
+        },
+        "CONTACT_US": {
+            "TITLE": "Contáctenos",
+            "DESC": "Por favor, elija el canal a través de lo que le gustaría llegar a nosotros."
+        },
+        "CRITICAL_UPDATE": {
+            "TITLE": "Actualización de la versión crítica",
+            "DESC": "Una versión más nueva con arreglos críticos está disponible. Por favor, actualice la aplicación para continuar"
+        },
+        "NEW_VERSION_AVAILABLE": {
+            "TITLE": "Nueva versión disponible",
+            "DESC": "Una versión más nueva de esta aplicación está disponible con correcciones de errores. ¿Te gustaría actualizar la aplicación ahora?"
+        },
+        "RATE_APP": {
+            "TITLE": "Califica esta aplicación",
+            "DESC": "Si disfrutas usando esta aplicación, ¿te importaría tomar un momento para calificarlo?"
+        },
+        "UPDATE_TAG": {
+            "TITLE": "Etiqueta de actualización",
+            "DESC": "Ya existe una dirección con la etiqueta \"%{tag}\", ¿le gustaría actualizarlo?"
+        },
+        "INVALID_OTP": {
+            "TITLE": "OTP inválido",
+            "DESC": "Solo se permiten alfabetos ingleses (A-Z) y números (0-9)"
+        }
+    },
+    "ERRORS": {
+        "GEOLOCATION_DISABLED": {
+            "title": "Permiso denegado",
+            "message": "Permiso de ubicación denegado por el usuario"
+        },
+        "PAYMENT_CANCELLED": {
+            "title": "Cancelado",
+            "message": "El pago ha sido cancelado"
+        },
+        "PAYMENT_FAILED": {
+            "title": "Pago fallido",
+            "message": "Si alguna cantidad si se deduce para el pedido, se devolverá en breve"
+        },
+        "LOGIN_FAILED": {
+            "title": ""
+        }
+    }
+}
